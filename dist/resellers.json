@@ -1,0 +1,926 @@
+[
+  {
+    "region": "N/A",
+    "country": "Argentina",
+    "resellers": [
+      {
+        "name": "Xaviscell",
+        "links": [
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/Xavisgsm"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.xaviscell.com.ar/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Australia",
+    "resellers": [
+      {
+        "name": "Coming soon",
+        "links": [
+          {
+            "url": false,
+            "name": "Website",
+            "content": "Coming soon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Belgium",
+    "resellers": [
+      {
+        "name": "MigSwitchBE",
+        "links": [
+          {
+            "url": true,
+            "name": "email",
+            "content": "mailto:migswitchbe@gmail.com"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migswitchbe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Brazil",
+    "resellers": [
+      {
+        "name": "MigSwitchBRA",
+        "links": [
+          {
+            "url": true,
+            "name": "Email",
+            "content": "mailto:migswitch.bra@gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Canada",
+    "resellers": [
+      {
+        "name": "Coming Soon",
+        "links": [
+          {
+            "url": false,
+            "name": "Website",
+            "content": "Coming soon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Chile",
+    "resellers": [
+      {
+        "name": "MigFlash Chile",
+        "links": [
+          {
+            "url": false,
+            "name": "Website",
+            "content": "https://migflash.cl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "China",
+    "resellers": [
+      {
+        "name": "福州米格",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "RippleEffect97"
+          },
+          {
+            "url": true,
+            "name": "Email",
+            "content": "mailto:769371379@qq.com"
+          }
+        ]
+      },
+      {
+        "name": "BennieKwok",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "Zhouwing0708"
+          },
+          {
+            "url": true,
+            "name": "Email",
+            "content": "mailto:Benniekwok@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "米格电玩",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "simondb666"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://h5.m.taobao.com/awp/core/detail.htm?ft=t&id=762534886989"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitchCN",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.migswitch.com.cn/"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitchGZ",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "pigxbb"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://h5.m.taobao.com/awp/core/detail.htm?id=761633740269"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitchCN2",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "MigSwitchChina"
+          },
+          {
+            "url": true,
+            "name": "Email",
+            "content": "mailto:1425221673@qq.com"
+          }
+        ]
+      },
+      {
+        "name": "LoveKeKe520__",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "LoveKeKe520__"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://m.tb.cn/h.5KlFUPh?tk=5YgHWSxrVPQ"
+          }
+        ]
+      },
+      {
+        "name": "米格 · 彦祖",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://link3.cc/lishang"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migSwitchCN"
+          }
+        ]
+      },
+      {
+        "name": "MigBBS中文论坛",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.migbbs.com/"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://h5.m.taobao.com/awp/core/detail.htm?ft=t&id=763604507285"
+          }
+        ]
+      },
+      {
+        "name": "米格小店铺-山东区",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "JyJx-Baba"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://m.tb.cn/h.5za6ZLR?tk=XYcBWK5mCBL"
+          }
+        ]
+      },
+      {
+        "name": "migswitch中国代理",
+        "links": [
+          {
+            "url": true,
+            "name": "Taobao",
+            "content": "https://migswitch.taobao.com/"
+          },
+          {
+            "url": true,
+            "name": "Douyin",
+            "content": "https://v.douyin.com/iLxLQxEs/"
+          }
+        ]
+      },
+      {
+        "name": "十号烧录卡",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "Zsffjzy"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://mobile.yangkeduo.com/mall_page.html?refer_share_uin=PLB4CJQLD5VKOFFMFMPSIQMYYE_GEXDA&refer_share_id=F6Qk4nt8Yjlq09BnpN8C3dc3MA67REnp&msn=zpvnt4evhmcnystv6wpfjstsl4_axbuy&_wv=41729&refer_share_channel=copy_link&mall_id=275878004&_wvx=10"
+          }
+        ]
+      },
+      {
+        "name": "Mig游戏资源店",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "MigResources"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://m.tb.cn/h.5I8rFyBbEW8gufp?tk=G9k4W8qpett"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitchZJ",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "PuPuppru"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://item.taobao.com/item.htm?ft=t&id=766903856057"
+          }
+        ]
+      },
+      {
+        "name": "哇哈哈哈",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "BECOME-COOL"
+          },
+          {
+            "url": true,
+            "name": "PDD",
+            "content": "https://mobile.yangkeduo.com/goods.html?goods_id=593552067286&refer_page_app=mms&refer_page_name=mms_goods_list_new&refer_page_id=10357_1709803770198_8612693687"
+          }
+        ]
+      },
+      {
+        "name": "烧录卡",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "acacsp"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://shop.m.taobao.com/shop/shop_index.htm?shop_id=340642658&user_id=2213937320858/"
+          }
+        ]
+      },
+      {
+        "name": "腾辉电子",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "YAN-918666"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://m.tb.cn/h.5BL23hvsYCuizao"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitchGZ2",
+        "links": [
+          {
+            "url": false,
+            "name": "WeChat",
+            "content": "nihaoputonghua"
+          },
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://m.tb.cn/h.5BwXJAS?tk=tKXvWKLD8vN"
+          }
+        ]
+      },
+      {
+        "name": "米格大师兄",
+        "links": [
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://migswitch.taobao.com/"
+          },
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migmaster.shop/products/mig-flash-v2"
+          }
+        ]
+      },
+      {
+        "name": "Electric Eel Game",
+        "links": [
+          {
+            "url": true,
+            "name": "TaoBao",
+            "content": "https://item.taobao.com/item.htm?ft=t&id=789830011341"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "France",
+    "resellers": [
+      {
+        "name": "MigFlash France",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://linktr.ee/migflashfrance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Germany",
+    "resellers": [
+      {
+        "name": "CustomLegends",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.customlegends.de/shop/"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitch2",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitch2.de/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Italy",
+    "resellers": [
+      {
+        "name": "MigSwitchItalia",
+        "links": [
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migswitchita"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Iran",
+    "resellers": [
+      {
+        "name": "Mytendo",
+        "links": [
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/eden_teleg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Japan",
+    "resellers": [
+      {
+        "name": "haysh1 mig store",
+        "links": [
+          {
+            "url": true,
+            "name": "email",
+            "content": "mailto:hayash197@126.com"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/hayshi_rain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Korea (South)",
+    "resellers": [
+      {
+        "name": "Park JY",
+        "links": [
+          {
+            "url": true,
+            "name": "email",
+            "content": "mailto:jpkrswitch@yeah.net"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/unrestrained98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Kuwait",
+    "resellers": [
+      {
+        "name": "PopDropKW",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://popdropkw.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Malaysia",
+    "resellers": [
+      {
+        "name": "MigSwitchMY",
+        "links": [
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migswitchmy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Mexico",
+    "resellers": [
+      {
+        "name": "GeekPropsMX",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitchstoremx.mercadoshops.com.mx/"
+          }
+        ]
+      },
+      {
+        "name": "Lan Games",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://lan.games/"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitch MX",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitch.mx/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Netherlands",
+    "resellers": [
+      {
+        "name": "Coming Soon",
+        "links": [
+          {
+            "url": false,
+            "name": "Website",
+            "content": "Coming Soon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Norway",
+    "resellers": [
+      {
+        "name": "MigSwitch NO",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitch.no/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Panama",
+    "resellers": [
+      {
+        "name": "MigSwitchPA",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "mailto:Migswitchpanama@gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Philippines",
+    "resellers": [
+      {
+        "name": "BattleGearPH",
+        "links": [
+          {
+            "url": true,
+            "name": "Facebook",
+            "content": "https://www.facebook.com/BGPelectronics"
+          },
+          {
+            "url": true,
+            "name": "Shopee",
+            "content": "https://shopee.ph/battlegearmanila"
+          }
+        ]
+      },
+      {
+        "name": "PLAYERS VAULT",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.playersvaultph.com"
+          },
+          {
+            "url": true,
+            "name": "Facebook",
+            "content": "https://www.facebook.com/playersvaultph"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Russia",
+    "resellers": [
+      {
+        "name": "MigSwitchRU",
+        "links": [
+          {
+            "url": true,
+            "name": "website",
+            "content": "https://migswitch.ru"
+          }
+        ]
+      },
+      {
+        "name": "Handygames",
+        "links": [
+          {
+            "url": true,
+            "name": "website",
+            "content": "https://www.avito.ru/moskva/igry_pristavki_i_programmy/mig_switch_flesh_kartridzh_3906709425?utm_campaign=native&utm_medium=item_page_ios&utm_source=soc_sharing_seller"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Singapore",
+    "resellers": [
+      {
+        "name": "MigSwitchSG",
+        "links": [
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migswitchsg"
+          },
+          {
+            "url": true,
+            "name": "Shopee",
+            "content": "https://shopee.sg/Mig-Switch-Nintendo-Switch-Back-up-Development-Device-i.1249449553.24428474826?sp_atk=ec3a0e2d-9372-42f0-997e-689893bc1092&xptdk=ec3a0e2d-9372-42f0-997e-689893bc1092"
+          }
+        ]
+      },
+      {
+        "name": "Almighty House",
+        "links": [
+          {
+            "url": true,
+            "name": "Shopee",
+            "content": "https://shopee.sg/jasoninn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Spain",
+    "resellers": [
+      {
+        "name": "MigSwitchSP",
+        "links": [
+          {
+            "url": true,
+            "name": "website",
+            "content": "https://www.migswitchspain.com/"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/SpanishMinerscom"
+          }
+        ]
+      },
+      {
+        "name": "Capitan Switch",
+        "links": [
+          {
+            "url": true,
+            "name": "website",
+            "content": "https://capitanswitch.com/"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/migSwitchSpain"
+          }
+        ]
+      },
+      {
+        "name": "SpanishMiners",
+        "links": [
+          {
+            "url": true,
+            "name": "email",
+            "content": "mailto:mig@spanishminers.com"
+          },
+          {
+            "url": true,
+            "name": "Telegram",
+            "content": "https://t.me/SpanishMinerscom"
+          }
+        ]
+      },
+      {
+        "name": "MS ES",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://ms-es.my.canva.site/ms-es"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Sweden",
+    "resellers": [
+      {
+        "name": "MigSwitch SE",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitch.se//"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Taiwan",
+    "resellers": [
+      {
+        "name": "MigSwitch TW",
+        "links": [
+          {
+            "url": true,
+            "name": "Shopee",
+            "content": "https://shopee.tw/product/57696950/25012304394/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "United Arab Emirates",
+    "resellers": [
+      {
+        "name": "LvlUpTech",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://www.instagram.com/lvluptech.ae?igsh=MTFuMnZpMGxidXJyaw=="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "United Kingdom",
+    "resellers": [
+      {
+        "name": "Coming Soon",
+        "links": [
+          {
+            "url": false,
+            "name": "Website",
+            "content": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "United States",
+    "resellers": [
+      {
+        "name": "MigFlashStore",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migflash.store/"
+          }
+        ]
+      },
+      {
+        "name": "Modphoria",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://modphoria.com/"
+          }
+        ]
+      },
+      {
+        "name": "MigSwitch United",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitchunitedshop.com/"
+          }
+        ]
+      },
+      {
+        "name": "MigFlash Network",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migflash.net/"
+          }
+        ]
+      },
+      {
+        "name": "MigFlash US",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migflash.us/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "N/A",
+    "country": "Venezuela",
+    "resellers": [
+      {
+        "name": "MigSwitchVE",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://migswitchve.my.canva.site/"
+          }
+        ]
+      }
+    ]
+  }
+]
