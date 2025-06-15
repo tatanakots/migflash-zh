@@ -10608,6 +10608,39 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                     className: "z-[-1] absolute left-0 w-[400px] sm:left-[25%] plugnplay:block plugnplay:left-[675px] plugnplay:top-[590px]"
                 })]
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs(W, {
+                title: "14/06/2025: Firmware 1.2.0, adds support for Switch 1 games on Nintendo Switch 2 consoles.",
+                children: ["As announced earlier this week, please find in our DOWNLOAD section our latest 1.2.0 firmware, which adds Switch 1 games support for the new Nintendo Switch 2 console.", i.jsx("br", {}), "Nothing else in this update, more will come in the future firmware we will release.", i.jsx("br", {}), i.jsx("a", {
+                    onClick: () => window.scrollTo(0, 0),
+                    href: "/#/downloads",
+                    children: "Click here to download the latest firmware."
+                })]
+            }), i.jsxs(W, {
+                title: "10/06/2025: Playing Switch 1 games on Switch 2",
+                children: ["While we are working on the next updates for Mig Flash card and dumper, we obviously had to take a break to add the function everyone have been mailing us for: playing Switch 1 games on the brand new Nintendo Switch 2.", i.jsx("br", {}), "So that everyone remains calm, here is first a quick video of our new beta firmware running on the Switch 2.", i.jsx("br", {}), "We are very rigorous and serious about any update, and do not want to rush an update. So we ask you to be a little patient. But the wait won't be long for the release of the final firmware.", i.jsx("br", {}), "Thank you all for your support and your patience!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
+                    style: {
+                        position: "relative",
+                        width: "100%",
+                        height: "0px",
+                        paddingBottom: "56.250%"
+                    },
+                    children: i.jsx("iframe", {
+                        allow: "fullscreen",
+                        allowFullScreen: !0,
+                        height: "100%",
+                        src: "https://streamable.com/e/wn8csp?",
+                        width: "100%",
+                        style: {
+                            border: "none",
+                            width: "100%",
+                            height: "100%",
+                            position: "absolute",
+                            left: "0px",
+                            top: "0px",
+                            overflow: "hidden"
+                        }
+                    })
+                })]
+            }), i.jsxs(W, {
                 title: "10/04/2025: Minor update for Mac users",
                 children: ["We have a lot in the works for 2025, and like all of you, we are eagerly waiting for Nintendo new console: the Switch 2!", i.jsx("br", {}), i.jsx("br", {}), "Firmware 1.1.9 fixes a Mig card issue for Mac users where hidden XCI files are inadvertently created by Mac OS starting with a dot. A long button press in such an instance could cause no ROM to be loaded. This is now fixed, and we wanted to push this update as it was annoying for some Mac users.", i.jsx("br", {}), i.jsx("br", {}), "But don't worry, a lot of good things are coming in 2025 for Mig users.", i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
@@ -11095,6 +11128,11 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsxs("ul", {
                 className: "self-start pl-10 list-disc text-mig-orange",
                 children: [i.jsx("li", {
+                    children: i.jsx("a", {
+                        href: "/downloads/1.2.0.zip",
+                        children: "Version 1.2.0 (二进制文件)"
+                    })
+                }),i.jsx("li", {
                     children: i.jsx("a", {
                         href: "/downloads/1.1.9.zip",
                         children: "Version 1.1.9 (二进制文件)"
