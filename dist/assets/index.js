@@ -10616,26 +10616,25 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                     alt: "Plug and Play"
                 })]
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs(W, {
-                title: "14/06/2025: Firmware 1.2.0, adds support for Switch 1 games on Nintendo Switch 2 consoles.",
-                children: ["As announced earlier this week, please find in our DOWNLOAD section our latest 1.2.0 firmware, which adds Switch 1 games support for the new Nintendo Switch 2 console.", i.jsx("br", {}), "Nothing else in this update, more will come in the future firmware we will release.", i.jsx("br", {}), i.jsx("a", {
+                title: "2025年6月14日：固件1.2.0，增加对Nintendo Switch 2主机上Switch 1游戏的支持。",
+                children: ["正如本周早些时候宣布的，请在我们的下载区查找最新的1.2.0固件，它增加了对新款Nintendo Switch 2主机运行Switch 1游戏的支持。", i.jsx("br", {}), "此次更新没有其他内容，未来的固件将带来更多内容。", i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "10/06/2025: Playing Switch 1 games on Switch 2",
-                children: ["While we are working on the next updates for Mig Flash card and dumper, we obviously had to take a break to add the function everyone have been mailing us for: playing Switch 1 games on the brand new Nintendo Switch 2.", i.jsx("br", {}), "So that everyone remains calm, here is first a quick video of our new beta firmware running on the Switch 2.", i.jsx("br", {}), "We are very rigorous and serious about any update, and do not want to rush an update. So we ask you to be a little patient. But the wait won't be long for the release of the final firmware.", i.jsx("br", {}), "Thank you all for your support and your patience!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
+                title: "2025年6月10日：在Switch 2上玩Switch 1游戏",
+                children: ["在我们为Mig Flash卡带和转储器准备下一个更新的同时，我们当然也必须抽出时间来实现大家一直给我们发邮件请求的功能：在全新的Nintendo Switch 2上玩Switch 1游戏。", i.jsx("br", {}), "为了让大家安心，这里先发布一个运行于Switch 2上的新测试固件视频。", i.jsx("br", {}), "我们对任何更新都非常严谨和认真，不希望仓促发布。因此请大家稍安勿躁。但最终固件的发布不会让你等太久。", i.jsx("br", {}), "感谢大家的支持与耐心！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
                     style: {
                         position: "relative",
                         width: "100%",
                         height: "0px",
                         paddingBottom: "56.250%"
                     },
-                    children: i.jsx("iframe", {
+                    children: i.jsx("video", {
                         allow: "fullscreen",
-                        allowFullScreen: !0,
+                        controls: !0,
                         height: "100%",
-                        src: "https://streamable.com/e/wn8csp?",
                         width: "100%",
                         style: {
                             border: "none",
@@ -10645,58 +10644,61 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             left: "0px",
                             top: "0px",
                             overflow: "hidden"
-                        }
+                        },
+                        children: i.jsx("source", {
+                            src: "/assets/news/2025-06-10/wn8csp.mp4",
+                            type: "video/mp4"
+                        })
                     })
                 })]
             }), i.jsxs(W, {
-                title: "10/04/2025: Minor update for Mac users",
-                children: ["We have a lot in the works for 2025, and like all of you, we are eagerly waiting for Nintendo new console: the Switch 2!", i.jsx("br", {}), i.jsx("br", {}), "Firmware 1.1.9 fixes a Mig card issue for Mac users where hidden XCI files are inadvertently created by Mac OS starting with a dot. A long button press in such an instance could cause no ROM to be loaded. This is now fixed, and we wanted to push this update as it was annoying for some Mac users.", i.jsx("br", {}), i.jsx("br", {}), "But don't worry, a lot of good things are coming in 2025 for Mig users.", i.jsx("br", {}), i.jsx("a", {
+                title: "2025年4月10日：针对Mac用户的小更新",
+                children: ["我们正在为2025年准备很多内容，就像大家一样，我们也在热切等待任天堂的新主机：Switch 2！", i.jsx("br", {}), i.jsx("br", {}), "固件1.1.9修复了Mac用户在使用Mig卡时的问题，Mac OS会以点开头不小心创建隐藏的XCI文件。此类情况下长按按钮可能导致无法加载ROM。这个问题现在已被修复，我们希望发布这个更新，因为它确实困扰了一些Mac用户。", i.jsx("br", {}), i.jsx("br", {}), "别担心，2025年对Mig用户来说还有很多好消息。", i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "27/02/2025: Firmware 1.1.8 update",
-                children: ["Today we present a quick firmware update.", i.jsx("br", {}), "1.1.8 fixes an issue in Mig Dumper where dumping certain gamecard types would stop early and drop to zero transfer speed.", i.jsx("br", {}), "More is in the works, but we wanted to push this little update as we had several users with that issue that were stuck backing up some of their beloved games!", i.jsx("br", {}), i.jsx("a", {
+                title: "2025年2月27日：固件1.1.8更新",
+                children: ["今天我们发布了一个小型固件更新。", i.jsx("br", {}), "1.1.8修复了Mig转储器中在转储某些游戏卡类型时会过早停止并降速至零的错误。", i.jsx("br", {}), "我们还在开发更多内容，但因为有用户因该问题无法备份他们心爱的游戏，我们决定尽快推送这个小更新！", i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "18/02/2025: MigUpdater and firmware 1.1.7",
+                title: "2025年2月18日：MigUpdater与固件1.1.7",
                 children: [i.jsx("img", {
-                    src: "https://i.postimg.cc/prXf9Shd/mig.png",
+                    src: "/assets/news/2025-02-18/mig.png",
                     alt: ""
-                }), "Today we present firmware 1.1.7 which fixes an issue where updating Mig Dumper did not work for Mac and Linux users.", i.jsx("br", {}), "Additionally, starting from firmware 1.1.7, the Mig Dumper will show the firmware version as a file ('1.1.7') in the GameCard root folder to easily see what firmware version is running.", i.jsx("br", {}), i.jsx("br", {}), "To help with updating Mig Dumper for all users, we also present a new tool called: migupdater", i.jsx("br", {}), "Migupdater is a Desktop application for Windows, Mac and Linux to easily check and update the Mig Dumper firmware version.", i.jsx("br", {}), "This is a handy fallback method if the drag and drop method does not work.", i.jsx("br", {}), "Check it out in the Downloads and instruction section", i.jsx("br", {}), i.jsx("a", {
+                }), "今天我们发布固件1.1.7，它修复了Mac和Linux用户无法更新Mig转储器的问题。", i.jsx("br", {}), "此外，从固件1.1.7起，Mig转储器将在GameCard根目录下显示一个以固件版本命名的文件（如 '1.1.7'），便于查看当前使用的固件版本。", i.jsx("br", {}), i.jsx("br", {}), "为了帮助所有用户更方便地更新Mig转储器，我们还推出了一个新工具：migupdater", i.jsx("br", {}), "Migupdater是一款适用于Windows、Mac和Linux的桌面应用程序，用于轻松检查并更新Mig转储器固件版本。", i.jsx("br", {}), "如果拖放方式无效，这将是一个很方便的备用方法。", i.jsx("br", {}), "请在下载与使用说明区查看。", i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "14/01/2025: Happy new year! Turning V1 into V2.",
-                children: ["First and foremost: Happy new year everyone! We have a lot more coming this year, and although we do not talk much, we are working hard in the background and you can expect many update and news from us in 2025.", i.jsx("br", {}), i.jsx("br", {}), "On a side note, we had hundreds of email requests of Mig Card V1 (the model without the switch to go from one game to next/previous) on how to turn your V1 card into a V2 card.", i.jsx("br", {}), "Although we don't recommend this modification, if you are electronically skilled AND are accepting the risk of losing your Mig Card V1, you can find", " ", i.jsx("a", {
+                title: "2025年1月14日：新年快乐！将 V1 转变为 V2。",
+                children: ["首先：新年快乐！我们今年还有很多内容即将推出，虽然我们话不多，但我们一直在幕后努力工作，2025 年你们可以期待我们带来很多更新和消息。", i.jsx("br", {}), i.jsx("br", {}), "顺便说一下，我们收到了数百封关于 Mig Card V1（没有用于切换上下游戏的开关的型号）如何改装为 V2 的邮件请求。", i.jsx("br", {}), "虽然我们不推荐这个改装方法，但如果你具有电子改装能力并愿意承担损坏 Mig Card V1 的风险，你可以查看 ", i.jsx("a", {
                     href: "https://m.dzen.ru/a/Z4ODpnoJExv3cV8Z",
                     target: "_blank",
-                    children: "HERE A DIY GUIDE"
-                }), " ", "made by a Mig user which we think is the best one we had so far for converting a Mig Card V1 to V2.", i.jsx("br", {}), "The text being in Russian, you can use webpage translator such as:", i.jsx("br", {}), i.jsx("a", {
+                    children: "此用户制作的 DIY 改装指南"
+                }), "，这是我们迄今为止看到的最好的 V1 改 V2 指南。", i.jsx("br", {}), "该指南是俄文的，你可以使用网页翻译工具，比如：", i.jsx("br", {}), i.jsx("a", {
                     href: "https://translate.yandex.com/en/translate",
                     target: "_blank",
-                    children: "Yandex"
-                }), i.jsx("br", {}), "One last time: Do it at your own risks!"]
+                    children: "Yandex 翻译"
+                }), i.jsx("br", {}), "最后提醒：所有风险请自负！"]
             }), i.jsxs(W, {
-                title: "07/12/2024: New Mig card cases",
-                children: ["At Mig Flash, we always try to improve both our software and hardware. And we also listen to all our end users feedback to try to improve your product experience.", i.jsx("br", {}), i.jsx("br", {}), "Today, we bring you a hardware update to the Mig Flash card, for which we had regular requests.", i.jsx("br", {}), i.jsx("br", {}), "Mig Flash case V2 is currently the default set being sent for all new orders. It features a clip-on case with a modified game switch button that seems to be more convenient to use without ejecting the Mig Flash. Remember, we recommend to always close the game card slot to operate.", i.jsx("br", {}), i.jsx("br", {}), "Because some of us at Mig like the more sturdy screw design, it will still be available for distributors, so you can choose the case you prefer.", i.jsx("br", {}), i.jsx("br", {}), "You can see the new case in action in the short video below.", i.jsx("br", {}), i.jsx("br", {}), "We wish you all a happy holiday season, and for those of you who still don't own a Mig Flash Card and/or Dumper, we hope Santa will think about you on Christmas' night!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
+                title: "2024年12月7日：Mig 新款卡带发布",
+                children: ["在 Mig Flash，我们一直致力于改进我们的软件和硬件。同时我们也倾听用户的反馈，以优化你们的使用体验。", i.jsx("br", {}), i.jsx("br", {}), "今天我们带来一项硬件更新，是许多用户长期以来的建议。", i.jsx("br", {}), i.jsx("br", {}), "Mig Flash V2 卡壳现已成为所有新订单的默认配置。它采用卡扣式设计，并配有改良的游戏切换按钮，更方便操作，无需取出卡带即可切换游戏。记得操作时请始终关闭游戏卡槽。", i.jsx("br", {}), i.jsx("br", {}), "考虑到我们团队中有人偏爱更结实的螺丝固定设计，因此该款式仍可通过经销商购买，让你可以自由选择喜欢的外壳。", i.jsx("br", {}), i.jsx("br", {}), "你可以在下面的视频中看到新壳的实际效果。", i.jsx("br", {}), i.jsx("br", {}), "我们祝大家节日快乐！对于那些还没有 Mig Flash 卡或 Dumper 的朋友，希望圣诞老人会在平安夜记得你！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
                     style: {
                         position: "relative",
                         width: "100%",
                         height: "0px",
                         paddingBottom: "56.250%"
                     },
-                    children: i.jsx("iframe", {
+                    children: i.jsx("video", {
                         allow: "fullscreen",
-                        allowFullScreen: !0,
+                        controls: !0,
                         height: "100%",
-                        src: "https://streamable.com/e/ycmp44?",
                         width: "100%",
                         style: {
                             border: "none",
@@ -10706,51 +10708,54 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             left: "0px",
                             top: "0px",
                             overflow: "hidden"
-                        }
+                        },
+                        children: i.jsx("source", {
+                            src: "/assets/news/2024-12-07/ycmp44.mp4",
+                            type: "video/mp4"
+                        })
                     })
                 })]
             }), i.jsxs(W, {
-                title: "08/10/2024: Urgent update for Mig Dumper Windows users",
-                children: ["Firmware 1.1.6 brings an urgent update to the Mig Dumper for users with latest Windows 11 23H2, 24H2 or higher version which implement a new Disk Signature Collision check.", i.jsx("br", {}), i.jsx("img", {
-                    src: "https://www.thewindowsclub.com/wp-content/uploads/2018/11/Disk-signature-collision-1.png",
+                title: "2024年10月8日：Windows 用户请紧急更新 Mig Dumper",
+                children: ["固件版本 1.1.6 为使用最新 Windows 11 23H2、24H2 或更高版本的用户提供了重要修复，这些系统引入了新的磁盘签名冲突检测机制。", i.jsx("br", {}), i.jsx("img", {
+                    src: "/assets/news/2024-10-08/Disk-signature-collision-1.png",
                     alt: ""
-                }), i.jsx("br", {}), "With recent Windows 11 updates, Mig Dumper drive will no longer appear because of a Disk Signature Collion as seen above.", i.jsx("br", {}), "Firmware 1.1.6 fixes this, but users with this problem are not able to update firmware because the drive is not online.", i.jsx("br", {}), i.jsx("br", {}), "To solve this we recommend a few options:", i.jsx("br", {}), "- Borrow an older Windows system from a friend to update Mig Dumper to firmware 1.1.6, or", i.jsx("br", {}), "- Download a Windows 10 ISO and create a Windows To Go USB stick with Rufus, then boot into Windows To Go and perform the firmware update, or", i.jsx("br", {}), "- Download a Linux ISO to launch a Live Boot system to perform the firmware update", i.jsx("br", {}), i.jsx("br", {}), "If you are still on an older Windows system we recommend you install the firmware to avoid the above problem in the future.", i.jsx("br", {}), i.jsx("br", {}), "Our sincere apologies to all users affected. Rest assure we will always offer 100% support for our products for the years to come.", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                }), i.jsx("br", {}), "随着 Windows 11 的更新，Mig Dumper 的驱动器由于磁盘签名冲突将不再显示，如上图所示。", i.jsx("br", {}), "固件 1.1.6 解决了这个问题，但由于驱动器无法被识别，受影响用户无法正常更新固件。", i.jsx("br", {}), i.jsx("br", {}), "我们推荐以下解决方案：", i.jsx("br", {}), "- 向朋友借用一台旧版本的 Windows 系统，更新 Mig Dumper 至固件 1.1.6，或", i.jsx("br", {}), "- 下载 Windows 10 ISO，使用 Rufus 创建 Windows To Go 启动 U 盘，进入该系统后进行更新，或", i.jsx("br", {}), "- 下载 Linux ISO，使用 Live Boot 系统进行固件更新", i.jsx("br", {}), i.jsx("br", {}), "如果你仍在使用旧版 Windows，我们建议尽快更新固件，以避免未来出现此类问题。", i.jsx("br", {}), i.jsx("br", {}), "对于受到影响的用户，我们深感抱歉。请放心，我们将长期提供 100% 的产品支持。", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "01/10/2024: Important clarification about console bans",
-                children: ["From reports we have received and seen with Mig Flash, ALL console bans to date have been because incomplete dumps have been used OR the BIN files have been mixed and matched from other gamecard dumps.", i.jsx("br", {}), "We have not seen a single ban yet when using 100% complete gamecard dumps with all BIN files and XCI coming from the same gamecard.", i.jsx("br", {}), i.jsx("br", {}), "Additionally, turning off the Switch console WiFi does not erase any activity with incomplete dumps.", i.jsx("br", {}), "All offline activity on the console is saved and WILL be transmitted next time WiFi is enabled on the console again.", i.jsx("br", {}), i.jsx("br", {}), "Keep this information in mind, and NEVER use dumps that are incomplete to avoid console bans."]
+                title: "2024年10月1日：关于主机封禁的重要说明",
+                children: ["根据我们收到的反馈和观察，所有与 Mig Flash 有关的主机封禁案例，目前为止都是因为使用了不完整的游戏备份文件，或混用了不同卡带的 BIN 文件。", i.jsx("br", {}), "我们尚未见过使用完整游戏卡备份（所有 BIN 文件和 XCI 来自同一张卡）的用户被封禁的情况。", i.jsx("br", {}), i.jsx("br", {}), "此外，关闭 Switch 主机 WiFi 并不会清除不完整备份造成的活动记录。", i.jsx("br", {}), "所有离线操作都会被记录，并在下次连接 WiFi 时上传至服务器。", i.jsx("br", {}), i.jsx("br", {}), "请牢记这些信息，**切勿**使用不完整的游戏备份，以避免主机被封禁。"]
             }), i.jsxs(W, {
-                title: "11/09/2024: Mig Dumper firmware update 1.1.5",
-                children: ["There was a little bug with our Mig Dumper on some rare games randomly on some dumpers. With the much appreciated assistance from members of our community (they will recognize themselves, thanks!), our team was finally able to zoom in this issue and it is now fixed with this new firmware update.", i.jsx("br", {}), i.jsx("br", {}), "Change log: 1.1.5: Fixed issue in mig dumper when drive could end up suddenly disconnected at some rare occasions", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年9月11日：Mig Dumper 固件更新 1.1.5",
+                children: ["在极少数情况下，我们的 Mig Dumper 在某些游戏上出现了突然断连的问题。借助社区成员的大力协助（你们懂的，感谢！），我们成功锁定了这个问题，并在此次固件更新中修复。", i.jsx("br", {}), i.jsx("br", {}), "更新日志：1.1.5：修复 Mig Dumper 在极少数情况下突然断开连接的问题", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "15/07/2024: NAME CHANGE, WE ARE NOW MIG FLASH!",
-                children: ["We become Mig Flash. Reason is again the powerful lobbying (corruption in most case) between large companies and lawmakers in certain powerful countries (we won't give any name, everyone knows :).", i.jsx("br", {}), i.jsx("br", {}), "For some reason, the word 'Switch' now can't be used without the consent from the company Nintendo©. Even if it is just to explain a product is made for (or compatible with) a device made by another company.", i.jsx("br", {}), i.jsx("br", {}), "To us, it is scandalous. But that is the way it is, and although we are not located in the USA, since they seem to control ICANN and a few other institutions we need to operate with, we decided to change our name to Mig Flash.", i.jsx("br", {}), i.jsx("br", {}), "Please note there is no other change beside this cosmetic one. Product is the same and work the same, new or old.", i.jsx("br", {}), i.jsx("br", {}), "Sorry about this, and we will keep bringing you good surprises in the future."]
+                title: "2024年7月15日：我们改名了！现在叫 Mig Flash！",
+                children: ["我们现在叫 Mig Flash。原因还是因为某些强势企业和国家立法机构之间的游说（说白了就是腐败 :)）。", i.jsx("br", {}), i.jsx("br", {}), "如今，未经 Nintendo© 公司授权，连‘Switch’这个词都不能用了。即使只是说明产品是兼容的都不行。", i.jsx("br", {}), i.jsx("br", {}), "我们认为这是非常荒谬的。但现实就是如此。虽然我们不在美国，但由于他们掌控 ICANN 和其他必要的运营组织，我们决定将品牌改为 Mig Flash。", i.jsx("br", {}), i.jsx("br", {}), "请注意，除了名称更改外，其它一切不变。产品一样，用法一样，新旧通用。", i.jsx("br", {}), i.jsx("br", {}), "对此我们深感抱歉，我们会继续为大家带来更多惊喜！"]
             }), i.jsxs(W, {
-                title: "01/07/2024: Temporary new site for MigFlash to access firmwares and more: www.migswitchru.com",
-                children: ["Although the situation is still not clear, it seems our company has lost the ownership of our domain name www.migswitch.com", i.jsx("br", {}), i.jsx("br", {}), "First and most important: We are operating as usual. We are shipping our products. All orders are being fulfilled and nothing has changed beside the domain name.", i.jsx("br", {}), i.jsx("br", {}), "We are shocked by what happened for several reasons, and we feel this is not only shocking for us but for the freedom of Internet in general.", i.jsx("br", {}), i.jsx("br", {}), "First, we were not warned or had a chance to answer and defend our products or at least the simple fact that whatever the complaint is, it applies only to a few countries and in no way allows to take down a domain for all users in the world. Can Afghanistan request to take down a .com website that goes again its interests? We don't think so.", i.jsx("br", {}), "But more than that, this is a .com domain, meaning a universal domain applying to many countries.", i.jsx("br", {}), '".com" domains sell products like drug/medications which are only legal in certain countries, or gambling. US sites selling or promoting weapons which are illegal in just about every country on the planet are registered in .com. We never heard any of them being seized as they are operating legally in their markets.', i.jsx("br", {}), "We clearly indicate on our site that our product is for legal use only in countries/jurisdictions where backing up your legally owned games is authorized. And there are many.", i.jsx("br", {}), "We do not even sell our products directly from our website. And there is no copyrighted material to be found anywhere.", i.jsx("br", {}), "If what we suspect is true, this is another proof of the abuse and bullying from some governments and companies which think they are above the laws of the world and do not respect anyone who think different.", i.jsx("br", {}), i.jsx("br", {}), "We will not tolerate that attitude and bow down to those bullies.", i.jsx("br", {}), i.jsx("br", {}), "Of course, IP blocking our site in countries where our products are considered illegal is totally acceptable. And we would never challenge it. In fact, it is the case for many companies. Some of our distributors even enforce that on their own.", i.jsx("br", {}), "But trying to tell the world what is right or wrong based on your country point of view is really unacceptable and add to the hate of certain countries for their bullies' attitude.", i.jsx("br", {}), i.jsx("br", {}), "Please note this site is likely only temporary as we know our many users need access to files and support and is a quick fix. We will likely move again to a more secure domain in the weeks to come.", i.jsx("br", {}), i.jsx("br", {}), "Thank you for your understanding and for your support against the bullies of the world. As soon as we find out more about what happened, we will post about it so all of us can report to pro-freedom NGO and hopefully contribute to making Internet a better place.", i.jsx("br", {}), i.jsx("br", {}), "P.S.: If you are not able to access this website, we will post news and update on our .onion website accessible by TOR:", i.jsx("br", {}), i.jsx("strong", {
+                title: "2024年7月1日：暂时启用新网站访问固件和其他资源：www.migswitchru.com",
+                children: ["目前情况尚不明朗，但我们公司似乎已失去对域名 www.migswitch.com 的所有权。", i.jsx("br", {}), i.jsx("br", {}), "最重要的是：我们的运营一切照常。产品仍在发货，订单正常处理，唯一变化是域名。", i.jsx("br", {}), i.jsx("br", {}), "我们对这次事件感到震惊，不仅是对我们，也对整个互联网自由来说都是令人担忧的信号。", i.jsx("br", {}), i.jsx("br", {}), "我们没有接到任何通知，也没有机会为自己辩护。而且无论投诉来自哪个国家，它并不能代表全球用户。难道阿富汗可以要求封锁一个 .com 网站？我们不这么认为。", i.jsx("br", {}), "更重要的是，.com 是全球通用的域名。", i.jsx("br", {}), '".com" 域名上销售合法药物、博彩产品，甚至一些美国网站销售的武器几乎全球禁售，但都仍能运营。我们从未见过它们被封禁。', i.jsx("br", {}), "我们的网站明确标示产品只供在允许备份正版游戏的地区使用，而且我们网站并不直接销售产品，也没有任何侵权内容。", i.jsx("br", {}), "如果我们的猜测属实，那这再次证明了一些政府和公司滥用权力，目中无人。", i.jsx("br", {}), i.jsx("br", {}), "我们不会向这些霸凌者低头。", i.jsx("br", {}), i.jsx("br", {}), "当然，在一些国家封锁我们的网站我们完全可以接受，我们也不会挑战这一点。有些经销商也在主动这么做。", i.jsx("br", {}), "但以一国标准来裁定全球什么是对错，这种做法只会让人更加憎恨那些欺凌他国的强权。", i.jsx("br", {}), i.jsx("br", {}), "请注意，该网站可能只是临时措施，因为我们知道用户需要访问资源与支持，我们将很快迁移到更安全的域名。", i.jsx("br", {}), i.jsx("br", {}), "感谢你的理解与支持。我们一旦查明真相，会第一时间公开，以便大家向支持自由的组织举报此事，让互联网变得更好。", i.jsx("br", {}), i.jsx("br", {}), "附注：若你无法访问该网站，我们将在 TOR 上的 .onion 网站同步更新：", i.jsx("br", {}), i.jsx("strong", {
                     children: "4gnoefk5zilujdkixixlsiagd3al5cejg3ooiwq2uuxgizgpnpwq7cqd.onion"
                 })]
             }), i.jsxs(W, {
-                title: "20/06/2024: Clarification on button use on V2 card.",
-                children: ["With the feedback we received from the first Mig Card V2 users, we realize we had to clarify something about the game switching button.", i.jsx("br", {}), i.jsx("br", {}), "We use purposely a thin button because, as you can see in the video below, it is meant to also be used with the game card slot cover closed.", i.jsx("br", {}), i.jsx("br", {}), "We think it is more convenient and since you don't really need to open it once your games are on the Mig microSD, it is just cleaner and looks better.", i.jsx("br", {}), i.jsx("br", {}), "Of course, you can also use it with the game card slot cover opened.", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
+                title: "2024年6月20日：关于 V2 卡上的按钮使用说明",
+                children: ["根据我们收到的 V2 用户反馈，我们意识到有必要对游戏切换按钮的使用进行说明。", i.jsx("br", {}), i.jsx("br", {}), "我们特意采用较薄的按钮设计，正如下面视频中展示的那样，它可以在卡槽盖关闭的情况下正常操作。", i.jsx("br", {}), i.jsx("br", {}), "我们认为这种方式更为方便，尤其是在游戏已存入 microSD 卡后，无需频繁开盖，外观也更整洁美观。", i.jsx("br", {}), i.jsx("br", {}), "当然，你也可以在打开卡槽盖的情况下操作按钮。", i.jsx("br", {}), i.jsx("br", {}), i.jsx("div", {
                     style: {
                         position: "relative",
                         width: "100%",
                         height: "0px",
                         paddingBottom: "56.250%"
                     },
-                    children: i.jsx("iframe", {
+                    children: i.jsx("video", {
                         allow: "fullscreen",
-                        allowFullScreen: !0,
+                        controls: !0,
                         height: "100%",
-                        src: "https://streamable.com/e/6gjaos?",
                         width: "100%",
                         style: {
                             border: "none",
@@ -10760,116 +10765,120 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             left: "0px",
                             top: "0px",
                             overflow: "hidden"
-                        }
+                        },
+                        children: i.jsx("source", {
+                            src: "/assets/news/2024-06-20/6gjaos.mp4",
+                            type: "video/mp4"
+                        })
                     })
                 })]
             }), i.jsxs(W, {
-                title: "05/06/2024: Games sorting",
-                children: ["By default, games are sorted by the time they were copied to the microSD. This is because we believe most people want their favorite games showing first.", i.jsx("br", {}), i.jsx("br", {}), "But if you want to have the games sorted alphabetically, head to our Q&A section, we explain how.", i.jsx("br", {}), i.jsx("br", {}), "Also on V2, remember that a quick push takes you to the next game, and a long one to the previous game. For easy navigation."]
+                title: "2024年6月5日：游戏排序",
+                children: ["默认情况下，游戏按照它们被复制到 microSD 的时间排序。这是因为我们相信大多数人希望最喜欢的游戏排在前面。", i.jsx("br", {}), i.jsx("br", {}), "但如果你希望按字母顺序排序游戏，可以前往我们的问答专区，我们在那里进行了详细说明。", i.jsx("br", {}), i.jsx("br", {}), "另外在 V2 版本中，请记住：快速按键可切换到下一个游戏，长按可返回上一个游戏，便于浏览。"]
             }), i.jsxs(W, {
-                title: "25/05/2024: Announcing Mig Card “V2”",
-                children: ["So finally, as requested by many of you, it is here.", i.jsx("br", {}), "Mig Flash Card “V2”, our first hardware revision, is now in production and replacing the original “V1”. From now on, we are manufacturing only this new version, which now features a game changing switch/button.", i.jsx("br", {}), i.jsx("br", {}), "A quick press of the button will take you to the next game on your microSD, and a long push to the previous one.", i.jsx("br", {}), "Because your requests were pretty unanimous, we decided to discontinue “V1”, so any new or pending order will now receive this new version.", i.jsx("br", {}), i.jsx("br", {}), "“V1” owners don't need to worry, their card will be updated exactly as the “V2” and will have the same new features as “V2” coming with future updates. Only the game switching method will be different.", i.jsx("br", {}), i.jsx("br", {}), "And for all new customers or people expecting their Mig Flash card, we hope you will enjoy this new way to navigate between your games!", i.jsx("br", {}), i.jsx("br", {}), "Samples are underway to reviewers, and you will see the first independent reviews next week."]
+                title: "2024年5月25日：Mig 卡 “V2” 正式发布",
+                children: ["终于，如大家呼声所愿，它来了。", i.jsx("br", {}), "Mig Flash Card “V2” 是我们的首个硬件升级版，现在已开始量产，并将替代原来的 “V1” 版本。从现在起，我们只生产这个新版本，它新增了一个改变游戏体验的开关/按钮。", i.jsx("br", {}), i.jsx("br", {}), "轻按按钮可切换到 microSD 上的下一个游戏，长按则返回上一个游戏。", i.jsx("br", {}), "由于大家的反馈高度一致，我们决定停止 “V1” 的生产，所有新订单或待发订单将收到该新版本。", i.jsx("br", {}), i.jsx("br", {}), "“V1” 的用户无需担心，他们的卡将在功能上与 “V2” 保持一致，并通过未来更新获得相同的功能。唯一的不同仅在于游戏切换方式。", i.jsx("br", {}), i.jsx("br", {}), "对于所有新客户或正在等待 Mig Flash 卡的朋友们，我们希望你们会喜欢这种新的游戏浏览方式！", i.jsx("br", {}), i.jsx("br", {}), "评测样品正在寄送给媒体，下周你们将看到首批独立测评。"]
             }), i.jsxs(W, {
-                title: "21/05/2024 : Firmware 1.1.4 , stability improvement for microSD and sleep mode.",
-                children: ["Today we bring you another firmware update that will improve your Mig Card support of various microSD brands as well as sleep mode stability. But stay tuned, as this Saturday, we will have an official announcement for our most requested update that is finally coming soon.", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年5月21日：固件 1.1.4，提升 microSD 与休眠模式的稳定性",
+                children: ["今天我们带来了另一个固件更新，将提升 Mig 卡对多种 microSD 品牌的支持，以及休眠模式的稳定性。敬请期待本周六，我们将有一项最受欢迎的功能更新正式发布！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "09/04/2024: MigDumpTool 0.0.2",
-                children: ["A quick update for our Mig Dump Tool:", i.jsx("br", {}), i.jsx("br", {}), i.jsxs("ul", {
+                title: "2024年4月9日：MigDumpTool 0.0.2",
+                children: ["我们对 Mig Dump Tool 进行了快速更新：", i.jsx("br", {}), i.jsx("br", {}), i.jsxs("ul", {
                     className: "self-start pl-5 list-disc",
                     children: [i.jsx("li", {
-                        children: "Implement cherrypicked improvements from latest nxdumptool revision."
+                        children: "集成了来自最新 nxdumptool 的部分精选优化。"
                     }), i.jsx("li", {
-                        children: "Fix dump path generation for multi title game cards."
+                        children: "修复了多标题游戏卡的转储路径生成问题。"
                     })]
                 }), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "31/03/2024: Firmware 1.1.3 - Bug fixes",
-                children: ["Another day, another small update thanks to user's feedback. The 2 key improvements this time are:", i.jsx("br", {}), i.jsx("br", {}), "- Improved sleep mode support", i.jsx("br", {}), "- Improved bootup of microSD card", i.jsx("br", {}), i.jsx("br", {}), "We are always happy to receive suggestions and bug reports from Mig users, so do not hesitate to contact us if you think something can be improved!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年3月31日：固件 1.1.3 - 错误修复",
+                children: ["又一天，又一次小更新，多亏用户反馈。本次的两个关键改进是：", i.jsx("br", {}), i.jsx("br", {}), "- 提升了休眠模式的支持", i.jsx("br", {}), "- 提高了 microSD 卡的启动稳定性", i.jsx("br", {}), i.jsx("br", {}), "我们始终欢迎 Mig 用户提出建议和 bug 报告，如果你认为哪里可以改进，请随时联系我们！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "21/03/2024: Firmware 1.1.2 - Bug fixes",
-                children: ["We did all we can to test in depth our Mig products before released, but nothing can compete with a large user base testing daily the Mig Flash under all conditions. So again, one of our dear users pinpointed us to a bug with some type of microSD card not working with Mig Flash.", i.jsx("br", {}), i.jsx("br", {}), "After careful investigating, we found the problem, and corrected it. And so here is firmware 1.1.2 which correct this issue.", i.jsx("br", {}), i.jsx("br", {}), "Change log: - Added support for Kingston microSD and several other models & brands.", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年3月21日：固件 1.1.2 - 错误修复",
+                children: ["我们已经尽全力在产品发布前深度测试 Mig，但也没有什么能比得上庞大用户群的日常实测。这次，又有一位亲爱的用户帮助我们发现了一种 microSD 卡在 Mig Flash 上无法使用的问题。", i.jsx("br", {}), i.jsx("br", {}), "经过仔细调查，我们找到了问题并已修复。因此发布了固件 1.1.2 来解决该问题。", i.jsx("br", {}), i.jsx("br", {}), "更新日志：- 增加对 Kingston 和多种其他 microSD 品牌的支持。", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "16/03/2024 : Firmware 1.1.1",
-                children: ["A quick update today to correct a bug some Mig users discoverer with non-Latin or special characters (Chinese, special symbols etc.).", i.jsx("br", {}), i.jsx("br", {}), "We want to thank our community for all the feedback and suggestions, it helps us improve the product, correct bugs, and is beneficial to everyone. Thank you!!", i.jsx("br", {}), i.jsx("br", {}), "Change log: - Added support for filenames containing Unicode characters", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年3月16日：固件 1.1.1",
+                children: ["今天的快速更新是为了解决一些 Mig 用户在使用非拉丁字符或特殊符号（中文、特殊符号等）时遇到的 bug。", i.jsx("br", {}), i.jsx("br", {}), "我们衷心感谢社区所有的反馈与建议，这些帮助我们不断改进产品、修复问题，并对所有用户都有益。谢谢你们！！", i.jsx("br", {}), i.jsx("br", {}), "更新日志：- 增加对包含 Unicode 字符的文件名的支持", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "26/02/2024: New firmware 1.1.0 update and production news.",
-                children: ["First, today we release a new update you can find in a the '", i.jsx("a", {
+                title: "2024年2月26日：固件 1.1.0 更新与生产进展",
+                children: ["首先，今天我们发布了一个新的更新，你可以在 “", i.jsx("a", {
                     href: "/#/downloads",
-                    children: "DOWNLOAD"
-                }), "' section.", i.jsx("br", {}), i.jsx("br", {}), "Key improvements are:", i.jsxs("ul", {
+                    children: "下载"
+                }), "” 页面找到。", i.jsx("br", {}), i.jsx("br", {}), "关键改进如下：", i.jsxs("ul", {
                     className: "self-start pl-5 list-disc",
                     children: [i.jsx("li", {
-                        children: "Improve boot up time for exfat fragmented XCI files"
+                        children: "提升 exFAT 碎片化 XCI 文件的启动速度"
                     }), i.jsx("li", {
-                        children: "Improves ROM launch detection."
+                        children: "改进 ROM 启动识别"
                     })]
-                }), i.jsx("br", {}), "Also, we want to confirm that the Mig Dumper design is final and we are slowly started production while trying to keep a strong pace with the Mig Card for which we are still behind. But trust us, our little team is working full-time on this to get your gateway card in your hands swiftly.", i.jsx("br", {}), i.jsx("br", {}), "Thanks for your support and patience!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                }), i.jsx("br", {}), "此外，我们确认 Mig Dumper 的设计已最终定稿，目前正在慢慢投入生产，同时也在加紧赶工 Mig Card 的生产进度（仍稍有延迟）。但请相信，我们的小团队正在全职努力推进，让你的卡尽快到手。", i.jsx("br", {}), i.jsx("br", {}), "感谢大家的支持与耐心等待！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "02/02/2024: Introducing MigDumpTool, Mig Flash's gamecard dumper app",
-                children: ["For people not using our Mig Dumper (hardware), this application provides a hassle-free way to backup all your Nintendo Switch games and retrieve all the data required by our Mig Flash flashcard in one simple click!", i.jsx("br", {}), i.jsx("br", {}), i.jsxs("ul", {
+                title: "2024年2月2日：推出 MigDumpTool —— Mig Flash 的游戏卡备份应用",
+                children: ["对于未使用我们的硬件设备 Mig Dumper 的用户，此应用提供了一种无障碍方式来备份所有 Nintendo Switch 游戏，并一键获取 Mig Flash 卡所需的所有数据！", i.jsx("br", {}), i.jsx("br", {}), i.jsxs("ul", {
                     className: "self-start pl-5 list-disc",
                     children: [i.jsx("li", {
-                        children: "Supports multiple output storage devices (micro SD card, PC, USB storage)."
+                        children: "支持多个输出设备（microSD 卡、PC、USB 存储）"
                     }), i.jsx("li", {
-                        children: "Offers an advanced settings menu to control the dump process."
+                        children: "提供高级设置菜单，可控制转储过程"
                     }), i.jsx("li", {
-                        children: "Sleek and easy to use UI."
+                        children: "界面简洁、易于使用"
                     }), i.jsx("li", {
-                        children: "Free to use."
+                        children: "完全免费"
                     }), i.jsx("li", {
-                        children: "Completely open source (licensed under GPLv3)."
+                        children: "完全开源（采用 GPLv3 许可）"
                     })]
-                }), i.jsx("br", {}), "Available now in our “", i.jsx("a", {
+                }), i.jsx("br", {}), "现在可以在我们的 “", i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Downloads"
-                }), "” section.", i.jsx("br", {}), i.jsx("br", {}), "Credits:", i.jsx("br", {}), i.jsx("ul", {
+                    children: "下载页面"
+                }), "” 获取。", i.jsx("br", {}), i.jsx("br", {}), "致谢：", i.jsx("br", {}), i.jsx("ul", {
                     className: "self-start pl-5 list-disc",
                     children: i.jsx("li", {
-                        children: "DarkMatterCore, for nxdumptool, which was used as the basis for this project."
+                        children: "感谢 DarkMatterCore，其 nxdumptool 项目是本工具开发的基础。"
                     })
                 })]
             }), i.jsxs(W, {
-                title: "22/01/2024: Firmware 1.0.9 is available",
-                children: ["Just some minor bug update thanks to the feedback from reviewer.", i.jsx("br", {}), i.jsx("br", {}), "- Fixed issue when split XCI folder is placed in root (only subfolder was working).", i.jsx("br", {}), "- Added current firmware version in nxindex file.", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年1月22日：固件 1.0.9 发布",
+                children: ["本次是一次小幅错误修复更新，多亏了评测者的反馈：", i.jsx("br", {}), i.jsx("br", {}), "- 修复当分割的 XCI 文件夹置于根目录时无法识别的问题（之前只支持子文件夹）", i.jsx("br", {}), "- 在 nxindex 文件中新增当前固件版本标注", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "17/01/2024: FIRST FIRMWARE UPDATE",
-                children: ["Today we release our first firmware update. 1.0.8 adds full support for split game files (you no longer need to concatenate them). 1.0.8 is already added to retail units of Mig Flash Cart and Dumper, so this is for review and testing units only!", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                title: "2024年1月17日：首次固件更新",
+                children: ["今天我们发布首个固件更新。1.0.8 为分割游戏文件提供完整支持（你无需再手动合并它们）。1.0.8 已预装在零售版的 Mig Flash 卡和 Dumper 上，因此本次更新主要面向评测和测试样机。", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                     onClick: () => window.scrollTo(0, 0),
                     href: "/#/downloads",
-                    children: "Click here to download the latest firmware."
+                    children: "点击此处下载最新固件"
                 })]
             }), i.jsxs(W, {
-                title: "08/01/2024 - Clarification on online play.",
-                children: ["Mig Flash is a backup and development device. As such, we only support and guarantee your gaming with your own games backups.", i.jsx("br", {}), i.jsx("br", {}), "This applies to online too. If you want to play online with the full Mig Flash warranty, you need to use your own dumped backups with genuine Certificate, UID and Card Set ID.", i.jsx("br", {}), i.jsx("br", {}), "Failure to respect this rule might end up in bans from Nintendo© online service, which we won't be held responsible for."]
+                title: "2024年1月8日：关于联机功能的说明",
+                children: ["Mig Flash 是一个用于备份与开发的设备。因此，我们仅支持并保证你在使用自己的游戏备份时的正常游戏体验。", i.jsx("br", {}), i.jsx("br", {}), "这同样适用于联机。如果你希望在享受 Mig Flash 的保修服务的同时进行联机，请务必使用你自己提取的游戏备份，并配有原始 Certificate、UID 与 Card Set ID。", i.jsx("br", {}), i.jsx("br", {}), "不遵守这一规则可能会导致你的主机被 Nintendo© 在线服务封禁，我们对此不承担任何责任。"]
             })]
         }), i.jsx(Bt, {})]
     })]
@@ -11140,7 +11149,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         href: "/downloads/1.2.0.zip",
                         children: "Version 1.2.0 (二进制文件)"
                     })
-                }),i.jsx("li", {
+                }), i.jsx("li", {
                     children: i.jsx("a", {
                         href: "/downloads/1.1.9.zip",
                         children: "Version 1.1.9 (二进制文件)"
@@ -11714,8 +11723,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
 });
 let hi = null;
 const zp = () => {
-    k.useEffect( () => (
-    () => {
+    k.useEffect( () => ( () => {
         window.turnstile.remove()
     }
     ), []);
