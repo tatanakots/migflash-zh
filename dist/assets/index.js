@@ -10645,6 +10645,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             top: "0px",
                             overflow: "hidden"
                         },
+                        poster: "/assets/news/2025-06-10/wn8csp_first.jpg",
                         children: i.jsx("source", {
                             src: "/assets/news/2025-06-10/wn8csp.mp4",
                             type: "video/mp4"
@@ -10709,6 +10710,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             top: "0px",
                             overflow: "hidden"
                         },
+                        poster: "/assets/news/2024-12-07/ycmp44_first.jpg",
                         children: i.jsx("source", {
                             src: "/assets/news/2024-12-07/ycmp44.mp4",
                             type: "video/mp4"
@@ -10766,6 +10768,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             top: "0px",
                             overflow: "hidden"
                         },
+                        poster: "/assets/news/2024-06-20/6gjaos_first.jpg",
                         children: i.jsx("source", {
                             src: "/assets/news/2024-06-20/6gjaos.mp4",
                             type: "video/mp4"
