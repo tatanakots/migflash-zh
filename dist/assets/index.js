@@ -10413,15 +10413,17 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     children: [i.jsxs("div", {
         className: "flex",
         children: [i.jsx("div", {
-            className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+            className: "w-6 h-3 mt-1 mr-2 bg-mig-white sm:w-8 sm:h-4 lg:w-10 lg:h-[20px] lg:mt-[3px]"
         }), i.jsx("h1", {
-            className: "text-3xl",
+            className: "text-lg sm:text-xl md:text-2xl lg:text-3xl",
             children: t
         })]
     }), i.jsxs("h1", {
-        className: "max-w-3xl text-2xl font-extrabold text-justify",
+        className: "max-w-3xl text-base font-extrabold text-justify sm:text-lg md:text-xl lg:text-2xl",
         children: [e, i.jsx("br", {}), i.jsx("br", {}), n ? i.jsx("img", {
-            src: n
+            src: n,
+            className: "max-w-full h-auto",
+            alt: ""
         }) : null]
     }), i.jsx("br", {}), i.jsx("br", {})]
 })
@@ -10433,53 +10435,53 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     , [e]),
     i.jsxs(i.Fragment, {
         children: [i.jsxs("div", {
-            className: "flex items-center justify-center gap-10 mb-16",
+            className: "flex items-center justify-center gap-4 mb-8 md:gap-10 md:mb-16",
             children: [i.jsx("img", {
                 src: "/assets/logo-large.png",
                 alt: "Mig-Flash Logo",
-                className: "w-[90px] md:w-[130px]"
+                className: "w-[70px] sm:w-[90px] md:w-[110px] lg:w-[130px]"
             }), i.jsxs("ul", {
-                className: "items-start hidden text-2xl lg:flex menu-items",
+                className: "items-start hidden text-sm md:text-lg lg:text-2xl lg:flex menu-items",
                 children: [i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "首页"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/product",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "产品"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/backup",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "备份你的游戏"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/downloads",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "下载 & 介绍"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/faq",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "常见问题 & 指示灯状态"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/where-to-buy",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "购买地点"
                     })
                 }), i.jsx("li", {
                     children: i.jsx(fe, {
                         to: "/contact",
-                        className: ({isActive: n}) => n ? "border-b-4" : "",
+                        className: ({isActive: n}) => n ? "border-b-2 lg:border-b-4" : "",
                         children: "联系我们"
                     })
                 })]
@@ -10487,16 +10489,18 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
         }), i.jsxs("div", {
             className: "block lg:hidden",
             children: [i.jsx("div", {
-                className: "absolute z-20 left-8 top-10",
+                className: "absolute z-20 left-4 top-6 sm:left-8 sm:top-10",
                 children: i.jsx("img", {
                     src: e ? "/assets/close.png" : "/assets/menu.png",
-                    width: "32px",
-                    onClick: () => t(!e)
+                    width: "28px",
+                    className: "sm:w-8 cursor-pointer",
+                    onClick: () => t(!e),
+                    alt: e ? "关闭菜单" : "打开菜单"
                 })
             }), e && i.jsx("div", {
-                className: "absolute top-0 left-0 z-10 w-full h-[100dvh] text-center bg-mig-red mobile-menu",
+                className: "fixed top-0 left-0 z-10 w-full h-[100dvh] text-center bg-mig-red mobile-menu",
                 children: i.jsxs("ul", {
-                    className: "flex flex-col items-center justify-center h-full gap-10 text-2xl menu-items menu-items-mobile",
+                    className: "flex flex-col items-center justify-center h-full gap-6 px-4 text-lg sm:gap-8 sm:text-xl md:text-2xl menu-items menu-items-mobile",
                     children: [i.jsx("li", {
                         onClick: () => {
                             t(!1)
@@ -10504,7 +10508,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "首页"
                         })
                     }), i.jsx("li", {
@@ -10514,7 +10518,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/product",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "产品"
                         })
                     }), i.jsx("li", {
@@ -10524,7 +10528,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/backup",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "备份你的游戏"
                         })
                     }), i.jsx("li", {
@@ -10534,7 +10538,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/downloads",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "下载 & 介绍"
                         })
                     }), i.jsx("li", {
@@ -10544,7 +10548,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/faq",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "常见问题 & 指示灯状态"
                         })
                     }), i.jsx("li", {
@@ -10554,7 +10558,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/where-to-buy",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "购买地点"
                         })
                     }), i.jsx("li", {
@@ -10564,7 +10568,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                         ,
                         children: i.jsx(fe, {
                             to: "/contact",
-                            className: ({isActive: n}) => n ? "border-b-4" : "",
+                            className: ({isActive: n}) => n ? "border-b-2 md:border-b-4" : "",
                             children: "联系我们"
                         })
                     })]
@@ -10576,36 +10580,40 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
   , Bt = e => {
     const {flag: t} = e;
     return i.jsxs("div", {
-        className: "mt-48 md:mt-32 footer",
+        className: "mt-24 md:mt-32 lg:mt-48 footer",
         children: [i.jsx("img", {
             src: "/assets/city2.png",
             className: "city"
         }), t && i.jsx("img", {
             src: "/assets/mig-flag.png",
-            className: "absolute -z-[1] bottom-0 w-full right-0 max-w-sm md:right-12"
+            className: "absolute -z-[1] bottom-0 w-full right-0 max-w-xs sm:max-w-sm md:right-12"
         }), i.jsxs("div", {
-            className: "absolute left-0 right-0 ml-auto mr-auto footer-text bottom-8",
+            className: "absolute left-0 right-0 ml-auto mr-auto footer-text bottom-4 sm:bottom-6 lg:bottom-8",
             children: [i.jsxs("p", {
+                className: "text-xs sm:text-sm md:text-base px-4",
                 children: ["版权所有 Mig-Flash ", new Date().getFullYear(), " —— 一个 Mig Flash 产品，在俄罗斯联邦开发和生产。"]
             }), i.jsx("br", {}), i.jsxs("p", {
+                className: "text-xs sm:text-sm md:text-base px-4",
                 children: ["Авторские права «Миг-флэш» ", new Date().getFullYear(), " - Являются продуктом «Миг-флэш», разработанного и произведенного в Российской Федерации. Все права защищены."]
             })]
         })]
     })
 }
   , Na = () => i.jsxs("div", {
-    className: "m-5 max-w-[1350px] md:m-12 w-full",
+    className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
     children: [i.jsx(Wt, {}), i.jsxs("div", {
         className: "flex flex-col items-center text-center max-w-[825px] mx-auto",
         children: [i.jsxs("div", {
-            className: "relative",
+            className: "relative w-full",
             children: [i.jsxs("div", {
                 children: [i.jsx("img", {
                     src: "/assets/live-free.png",
-                    className: "mt-12 z-[-1]"
+                    className: "w-full h-auto mt-8 sm:mt-12 z-[-1] max-w-full",
+                    alt: "Live Free"
                 }), i.jsx("img", {
                     src: "/assets/plugnplay.png",
-                    className: "z-[-1] absolute left-0 w-[400px] sm:left-[25%] plugnplay:block plugnplay:left-[675px] plugnplay:top-[590px]"
+                    className: "z-[-1] absolute left-0 w-[200px] sm:w-[250px] md:w-[300px] lg:w-[400px] sm:left-[20%] md:left-[25%] plugnplay:block plugnplay:left-[675px] plugnplay:top-[590px]",
+                    alt: "Plug and Play"
                 })]
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs(W, {
                 title: "14/06/2025: Firmware 1.2.0, adds support for Switch 1 games on Nintendo Switch 2 consoles.",
@@ -10867,29 +10875,29 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     })]
 })
   , _p = () => i.jsxs("div", {
-    className: "m-5 max-w-[1350px] md:m-12 w-full",
+    className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
     children: [i.jsx(Wt, {}), i.jsxs("div", {
         className: "flex flex-col items-center text-center max-w-[825px] md:max-w-[1350px] mx-auto",
         children: [i.jsxs("div", {
-            className: "flex flex-col items-center gap-10 md:flex-row",
+            className: "flex flex-col items-center gap-6 md:gap-10 md:flex-row mb-16",
             children: [i.jsx("img", {
                 src: "/assets/cartridge-02.png",
                 alt: "Hero",
-                className: "max-w-xs my-12 md:max-w-lg"
+                className: "max-w-[250px] my-8 sm:max-w-xs sm:my-12 md:max-w-lg"
             }), i.jsxs("div", {
                 className: "text-left",
                 children: [i.jsxs("div", {
                     className: "flex justify-center md:justify-start",
                     children: [i.jsx("div", {
-                        className: "hidden md:block w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                        className: "hidden md:block w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                     }), i.jsx("h1", {
-                        className: "w-full text-2xl text-center text-mig-red bg-mig-white md:text-start md:text-mig-white md:bg-mig-red md:w-auto",
+                        className: "w-full text-lg px-2 py-1 text-center text-mig-red bg-mig-white sm:text-xl md:text-2xl md:text-start md:text-mig-white md:bg-mig-red md:w-auto md:px-0 md:py-0",
                         children: "MIG-FLASH:"
                     })]
                 }), i.jsxs("div", {
-                    className: "ml-0 mt-5 md:ml-[57px] text-center md:text-left",
+                    className: "ml-0 mt-4 md:ml-[57px] text-center md:text-left md:mt-5",
                     children: [i.jsxs("p", {
-                        className: "max-w-xl text-xl",
+                        className: "max-w-xl text-base sm:text-lg md:text-xl",
                         children: ["Mig-Flash 是一个仅用于", " ", i.jsx("span", {
                             className: "font-black",
                             children: "备份和开发 Nintendo Switch© 主机的设备，无论什么版本、固件、型号"
@@ -10897,17 +10905,17 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                             children: "简单的即插即玩！"
                         })]
                     }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("p", {
-                        className: "max-w-xl text-xl",
+                        className: "max-w-xl text-base sm:text-lg md:text-xl",
                         children: ["在开发 Mig Flash 时，我们始终将易用性放在首位，您可以在我们网站的", " ", i.jsx("a", {
                             href: "/#/downloads",
                             className: "font-black",
                             children: "下载"
                         }), " ", "中看到结果。"]
                     }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("p", {
-                        className: "uppercase md:normal-case",
+                        className: "text-sm uppercase sm:text-base md:normal-case",
                         children: "该设备由 2 个产品组成，单独出售："
                     }), i.jsxs("ul", {
-                        className: "max-w-xl text-left list-disc pl-7",
+                        className: "max-w-xl text-left list-disc pl-5 sm:pl-7 text-sm sm:text-base md:text-lg",
                         children: [i.jsx("li", {
                             className: "font-black",
                             children: "Mig Flash 卡带（需要 microSD 卡，但不包含在内），您将始终需要它来运行备份。"
@@ -10922,19 +10930,19 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     })]
 })
   , Lp = () => i.jsxs("div", {
-    className: "m-5 max-w-[1350px] md:m-12 w-full",
+    className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
     children: [i.jsx(Wt, {}), i.jsxs("div", {
-        className: "max-w-[825px] mx-auto",
+        className: "max-w-[825px] mx-auto mb-16",
         children: [i.jsxs("div", {
             className: "flex",
             children: [i.jsx("div", {
-                className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
             }), i.jsx("h1", {
-                className: "text-2xl",
+                className: "text-lg sm:text-xl md:text-2xl",
                 children: "备份你的游戏 :"
             })]
         }), i.jsx("br", {}), i.jsxs("div", {
-            className: "max-w-5xl text-xl",
+            className: "max-w-5xl text-base sm:text-lg md:text-xl",
             children: [i.jsxs("p", {
                 children: [i.jsx("b", {
                     children: "请记住，插入 Mig Flash 卡中的 microSD 卡必须格式化为 exFAT 格式。"
@@ -10945,9 +10953,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "使用 Mig dumper :"
                 })]
             }), i.jsx("br", {}), i.jsxs("ol", {
@@ -10964,9 +10972,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "MigDumpTool 介绍 :"
                 })]
             }), i.jsx("br", {}), i.jsxs("ol", {
@@ -10997,16 +11005,16 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "NXdumpTool 介绍 :"
                 })]
             }), i.jsx("br", {}), i.jsx("p", {
                 className: "font-black",
                 children: "您需要一台（已破解的）Switch，它可以运行自制应用程序 NXdumpTool。您需要 NXdumpTool 的最新重写版本。"
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
-                className: "grid grid-cols-1 gap-12 md:grid-cols-2",
+                className: "grid grid-cols-1 gap-6 sm:gap-8 md:gap-12 md:grid-cols-2",
                 children: [i.jsxs("div", {
                     children: [i.jsxs("p", {
                         children: ["要制作完整的 ROM 转储文件，您必须", " ", i.jsx("span", {
@@ -11070,7 +11078,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("p", {
                 children: "Mig Flash 还支持使用 nxdumptool 转储到 microSD 卡时使用的拆分 XCI 格式。拆分 XCI 是一个 .xci 文件夹，包含顺序文件 00、01 等。BIN 文件不得放置在顺序文件旁边，因为它们会被忽略。"
             }), i.jsx("br", {}), i.jsxs("div", {
-                className: "grid grid-cols-2 gap-12",
+                className: "grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:gap-12",
                 children: [i.jsxs("div", {
                     children: [i.jsx("p", {
                         children: "例如:"
@@ -11110,17 +11118,17 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     })]
 })
   , Rp = () => i.jsxs("div", {
-    className: "m-5 max-w-[1350px] md:m-12 w-full",
+    className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
     children: [i.jsx(Wt, {}), i.jsx("div", {
-        className: "max-w-[825px] mx-auto",
+        className: "max-w-[825px] mx-auto mb-16",
         children: i.jsxs("div", {
-            className: "text-xl",
+            className: "text-base sm:text-lg md:text-xl",
             children: [i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "下载 :"
                 })]
             }), i.jsx("p", {
@@ -11246,9 +11254,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "安装或升级卡带固件 :"
                 })]
             }), i.jsxs("ol", {
@@ -11269,9 +11277,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "安装或升级转储器固件 :"
                 })]
             }), i.jsxs("ol", {
@@ -11296,9 +11304,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "使用 MIG UPDATER 更新过期的 MIG DUMPER :"
                 })]
             }), i.jsxs("ol", {
@@ -11329,9 +11337,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "直接安装或更新过期的转储器的固件 :"
                 })]
             }), i.jsxs("ol", {
@@ -11350,9 +11358,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "操作介绍 :"
                 })]
             }), i.jsxs("div", {
@@ -11435,15 +11443,15 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     }
     ;
     return i.jsxs("div", {
-        className: "m-5 max-w-[1350px] md:m-12 w-full",
+        className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
         children: [i.jsx(Wt, {}), i.jsxs("div", {
-            className: "text-xl max-w-[825px] mx-auto",
+            className: "text-base sm:text-lg md:text-xl max-w-[825px] mx-auto mb-16",
             children: [i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "购买地点 :"
                 })]
             }), i.jsxs("p", {
@@ -11453,16 +11461,13 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsxs("div", {
                     className: "flex",
                     children: [i.jsx("h1", {
-                        className: "text-3xl",
-                        style: {
-                            "text-wrap": "nowrap"
-                        },
+                        className: "text-xl sm:text-2xl md:text-3xl whitespace-nowrap",
                         children: r.country
                     }), i.jsx("hr", {
-                        className: "w-full mt-3 ml-4 opacity-50 border-mig-white"
+                        className: "w-full mt-2 ml-2 opacity-50 sm:mt-3 sm:ml-4 border-mig-white"
                     })]
                 }), i.jsx("ul", {
-                    className: "grid grid-cols-2 gap-8 pl-5 list-disc md:grid-cols-3 text-mig-orange",
+                    className: "grid grid-cols-1 gap-4 pl-5 list-disc sm:grid-cols-2 sm:gap-6 md:grid-cols-3 md:gap-8 text-mig-orange",
                     children: r.resellers.map( (o, s) => i.jsxs("li", {
                         children: [o.name, o.links.length > 0 ? i.jsx("ul", {
                             className: "pl-5 list-disc",
@@ -11487,20 +11492,20 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
     })
 }
   , Ip = () => i.jsxs("div", {
-    className: "m-5 max-w-[1350px] md:m-12 w-full",
+    className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
     children: [i.jsx(Wt, {}), i.jsx("div", {
-        className: "max-w-[825px] mx-auto",
+        className: "max-w-[825px] mx-auto mb-16",
         children: i.jsxs("div", {
-            className: "max-w-5xl text-xl",
+            className: "max-w-5xl text-base sm:text-lg md:text-xl",
             children: [i.jsx("h1", {
-                className: "text-2xl",
+                className: "text-lg sm:text-xl md:text-2xl",
                 children: "Q&A :"
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "Mig Dumper 包含在 Mig Flash（卡带）中吗？"
                 })]
             }), i.jsx("p", {
@@ -11508,9 +11513,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "Mig Flash 支持多大的 microSD 卡？"
                 })]
             }), i.jsx("p", {
@@ -11518,9 +11523,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我可以在线玩游戏吗？"
                 })]
             }), i.jsxs("p", {
@@ -11528,9 +11533,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我可以按字母顺序对游戏进行排序吗？"
                 })]
             }), i.jsxs("p", {
@@ -11543,9 +11548,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "你们支持 DLC 和游戏更新吗？"
                 })]
             }), i.jsx("p", {
@@ -11553,9 +11558,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我可以将我在任天堂 eshop 购买的游戏转移到 Mig Flash 吗？"
                 })]
             }), i.jsx("p", {
@@ -11563,9 +11568,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我无法切换到下一款游戏，除非我从 microSD 卡中删除 .nxindex 文件。"
                 })]
             }), i.jsxs("p", {
@@ -11573,9 +11578,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我从睡眠模式唤醒时出现游戏卡读取错误。"
                 })]
             }), i.jsxs("p", {
@@ -11583,9 +11588,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我有时会遇到游戏卡读取错误或游戏无法运行。"
                 })]
             }), i.jsxs("p", {
@@ -11593,9 +11598,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "我可以使用 NSP 格式或将 NSP 转换为 XCI 格式吗？"
                 })]
             }), i.jsx("p", {
@@ -11603,9 +11608,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "如何查看固件版本？"
                 })]
             }), i.jsxs("p", {
@@ -11613,9 +11618,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "当我没有运行任何游戏并从睡眠模式唤醒时，发现游戏卡已经处于拔出状态。"
                 })]
             }), i.jsx("p", {
@@ -11623,9 +11628,9 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsxs("div", {
                 className: "flex",
                 children: [i.jsx("div", {
-                    className: "w-12 h-[20px] mt-[3px] mr-2 bg-mig-white"
+                    className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "MigDumpTool 可以转储 8 个文件，而 Mig Dumper 只能转储 5 个。为什么？"
                 })]
             }), i.jsx("p", {
@@ -11633,7 +11638,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("hr", {
                 className: "border-mig-white"
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("h1", {
-                className: "text-2xl",
+                className: "text-lg sm:text-xl md:text-2xl",
                 children: "LED 指示灯故障排除指南 :"
             }), i.jsx("p", {
                 children: "尝试排除 Mig Flash 卡故障时，Mig Flash LED 指示灯是不错的入门指南:"
@@ -11642,7 +11647,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsx("div", {
                     className: "w-[20px] h-[20px] rounded-full mt-[3px] mr-2 bg-red-500"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "红色 LED 指示灯常亮"
                 })]
             }), i.jsxs("p", {
@@ -11652,7 +11657,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsx("div", {
                     className: "w-[20px] h-[20px] rounded-full mt-[3px] mr-2 bg-pink-200"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "白色（略带粉色）LED 常亮"
                 })]
             }), i.jsxs("p", {
@@ -11675,7 +11680,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsx("div", {
                     className: "w-[20px] h-[20px] rounded-full mt-[3px] mr-2 bg-green-500"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "绿色 LED 常亮"
                 })]
             }), i.jsxs("p", {
@@ -11685,7 +11690,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsx("div", {
                     className: "w-[20px] h-[20px] rounded-full mt-[3px] mr-2 bg-blue-600 animate-pulse"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "蓝色 LED 指示灯闪烁"
                 })]
             }), i.jsxs("p", {
@@ -11695,7 +11700,7 @@ const W = ({children: e, title: t, image: n}) => i.jsxs(i.Fragment, {
                 children: [i.jsx("div", {
                     className: "w-[20px] h-[20px] rounded-full mt-[3px] mr-2 bg-red-500 animate-pulse"
                 }), i.jsx("h1", {
-                    className: "text-2xl",
+                    className: "text-lg sm:text-xl md:text-2xl",
                     children: "红色 LED 指示灯闪烁"
                 })]
             }), i.jsxs("p", {
@@ -11756,16 +11761,18 @@ const zp = () => {
     }
     ;
     return i.jsxs("div", {
-        className: "m-5 max-w-[2500px] md:m-12 w-full",
+        className: "px-4 mx-auto sm:px-6 md:px-8 lg:px-12 max-w-[1350px] w-full",
         children: [i.jsx(Wt, {}), i.jsxs("div", {
-            className: "text-center",
+            className: "text-center mb-64",
             children: [i.jsx("p", {
+                className: "text-sm sm:text-base md:text-lg",
                 children: "请填写下方表格联系我们。请注意，我们仅回复俄语或英语的消息。"
             }), i.jsx("p", {
+                className: "text-sm sm:text-base md:text-lg",
                 children: "Пожалуйста заполните форму ниже для того, чтобы связаться с нами. Обращаем Ваше внимание, что мы можем ответить только на русском или английском языке."
             }), i.jsx("br", {}), i.jsx("br", {}), i.jsxs("form", {
                 onSubmit: o,
-                className: "max-w-lg p-6 mx-auto my-12 border-2 rounded shadow-lg border-mig-orange bg-mig-red",
+                className: "max-w-lg p-4 mx-auto my-8 border-2 rounded shadow-lg sm:p-6 sm:my-12 border-mig-orange bg-mig-red",
                 children: [i.jsxs("div", {
                     className: "mb-4",
                     children: [i.jsx("label", {
