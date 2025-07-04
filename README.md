@@ -1,4 +1,4 @@
-![Mig Flash Logo](/dist/assets/logo.png)
+![Mig Flash Logo](/src/assets/logo.png)
 # Mig Flash ZH
 
 This is a Chinese version of the [Mig Flash Website](https://migflash.com/).
