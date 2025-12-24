@@ -25,12 +25,12 @@
     "country": "Australia",
     "resellers": [
       {
-        "name": "Coming soon",
+        "name": "MigMaster Shop",
         "links": [
           {
-            "url": false,
+            "url": true,
             "name": "Website",
-            "content": "Coming soon"
+            "content": "https://migmaster.shop/"
           }
         ]
       }
@@ -78,12 +78,12 @@
     "country": "Canada",
     "resellers": [
       {
-        "name": "Coming Soon",
+        "name": "MigMaster Shop",
         "links": [
           {
-            "url": false,
+            "url": true,
             "name": "Website",
-            "content": "Coming soon"
+            "content": "https://migmaster.shop/"
           }
         ]
       }
@@ -97,7 +97,7 @@
         "name": "MigFlash Chile",
         "links": [
           {
-            "url": false,
+            "url": true,
             "name": "Website",
             "content": "https://migflash.cl"
           }
@@ -554,6 +554,16 @@
     "country": "Mexico",
     "resellers": [
       {
+        "name": "CARTUCHOMAGICO",
+        "links": [
+          {
+            "url": true,
+            "name": "Website",
+            "content": "https://cartuchomagico.shop"
+          }
+        ]
+      },
+      {
         "name": "GeekPropsMX",
         "links": [
           {
@@ -840,12 +850,12 @@
     "country": "United Kingdom",
     "resellers": [
       {
-        "name": "Coming Soon",
+        "name": "MigMaster Shop",
         "links": [
           {
-            "url": false,
+            "url": true,
             "name": "Website",
-            "content": ""
+            "content": "https://migmaster.shop/"
           }
         ]
       }
@@ -856,52 +866,12 @@
     "country": "United States",
     "resellers": [
       {
-        "name": "MigFlashStore",
+        "name": "MigMaster Shop",
         "links": [
           {
             "url": true,
             "name": "Website",
-            "content": "https://migflash.store/"
-          }
-        ]
-      },
-      {
-        "name": "Modphoria",
-        "links": [
-          {
-            "url": true,
-            "name": "Website",
-            "content": "https://modphoria.com/"
-          }
-        ]
-      },
-      {
-        "name": "MigSwitch United",
-        "links": [
-          {
-            "url": true,
-            "name": "Website",
-            "content": "https://migswitchunitedshop.com/"
-          }
-        ]
-      },
-      {
-        "name": "MigFlash Network",
-        "links": [
-          {
-            "url": true,
-            "name": "Website",
-            "content": "https://migflash.net/"
-          }
-        ]
-      },
-      {
-        "name": "MigFlash US",
-        "links": [
-          {
-            "url": true,
-            "name": "Website",
-            "content": "https://migflash.us/"
+            "content": "https://migmaster.shop/"
           }
         ]
       }

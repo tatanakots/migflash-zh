@@ -10606,6 +10606,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
             children: [i.jsxs("div", {
                 className: "relative w-full",
                 children: [i.jsxs("div", {
+                    className: "relative",
                     children: [i.jsx("img", {
                         src: "/assets/live-free.png",
                         className: "w-full h-auto mt-8 sm:mt-12 z-[-1] max-w-full",
@@ -10616,6 +10617,26 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                         alt: "Plug and Play"
                     })]
                 }), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsx("br", {}), i.jsxs(W, {
+                    title: "2025年12月10日 – 新游戏兼容性更新，固件1.2.3",
+                    children: ["最近，我们收到了某些新游戏无法运行的报告，例如《密特罗德究极4 穿越未知》。", i.jsx("br", {}), "我们很高兴宣布，此问题已通过今天发布的新固件更新修复，可在下载部分获取。", i.jsx("br", {}), "Mig Flash Dumper 和 Mig Flash Card 均已更新，因此您现在可以转储并游玩这些备份。", i.jsx("br", {}), i.jsx("br", {}), "请注意，目前这仅适用于（黑色）Switch 1 游戏卡类型。", i.jsx("br", {}), "（红色）Switch 2 游戏卡类型目前仍在调查中，我们将在有更多消息时报告。", i.jsx("br", {}), i.jsx("br", {}), "虽然我们最近没有太多沟通，请放心，我们正在努力为我们的产品带来重大更新，并为所有Mig Flash当前和未来的用户准备了很多东西。请继续关注，2026年将是伟大的一年！", i.jsx("br", {}), i.jsx("br", {}), "我们希望祝大家节日快乐。如果圣诞老人对完美的圣诞礼物没有想法，提醒他Mig Flash & Dumper会让任何Switch玩家开心 :)", i.jsx("br", {}), i.jsx("a", {
+                        onClick: () => window.scrollTo(0, 0),
+                        href: "/#/downloads",
+                        children: "点击此处下载最新固件。"
+                    })]
+                }), i.jsxs(W, {
+                    title: "2025年9月16日：签署请愿书 :)",
+                    children: ["如果您还没有签署，这里是'Stop Killing games'请愿书的链接：", " ", i.jsx("a", {
+                        href: "https://www.stopkillinggames.com/",
+                        children: "https://www.stopkillinggames.com/"
+                    }), i.jsx("br", {}), "它最近达到了超过100万签名，因此将必须由欧洲议会审查。", i.jsx("br", {}), "在Mig，我们强烈支持这样的倡议，并希望它能成为欧洲法律，以保护消费者免受游戏开发者随意杀死游戏的影响。随着现在'全数字'游戏越来越多，包括Switch 2，这种情况会越来越频繁。", i.jsx("br", {}), "Mig Flash是完美的解决方案：A) 通过使用其数字备份来保存原始游戏卡带的原始状态；B) 即使原始游戏卡带损坏，由于您合法购买了游戏，您仍然可以'永远'玩数字副本。", i.jsx("br", {}), i.jsx("br", {}), "同时，我们正在开发更多更新，将在未来几天/几周内宣布和发布！在那之前..."]
+                }), i.jsxs(W, {
+                    title: "2025年7月9日：新固件1.2.2",
+                    children: ["- 改进了裁剪ROM中的OOB读取速度", i.jsx("br", {}), "- 改进了稳定性", i.jsx("br", {}), "我们继续致力于赏金计划，到目前为止，我们已经为报告给我们的一个问题奖励了0.2 ETH，我们在本固件更新中修复了它。", i.jsx("br", {}), i.jsx("br", {}), "我们特别感谢这位要求匿名的用户，帮助改进Mig Flash。", i.jsx("br", {}), i.jsx("a", {
+                        onClick: () => window.scrollTo(0, 0),
+                        href: "/#/downloads",
+                        children: "点击此处下载最新固件。"
+                    })]
+                }), i.jsxs(W, {
                     title: "2025年7月1日：更隐蔽的 MigFlash 固件。漏洞赏金计划！",
                     children: [
                         "今天我们为您带来了固件 1.2.1，更新内容包括：",
@@ -10654,7 +10675,6 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                             children: "点击此处下载最新固件"
                         })
                     ]
-
                 }), i.jsxs(W, {
                     title: "2025年6月14日：固件1.2.0，增加对Nintendo Switch 2主机上Switch 1游戏的支持。",
                     children: ["正如本周早些时候宣布的，请在我们的下载区查找最新的1.2.0固件，它增加了对新款Nintendo Switch 2主机运行Switch 1游戏的支持。", i.jsx("br", {}), "此次更新没有其他内容，未来的固件将带来更多内容。", i.jsx("br", {}), i.jsx("a", {
@@ -11189,10 +11209,20 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                     className: "self-start pl-10 list-disc text-mig-orange",
                     children: [i.jsx("li", {
                         children: i.jsx("a", {
+                            href: "/downloads/1.2.3.zip",
+                            children: "Version 1.2.3 (二进制文件)"
+                        })
+                    }), i.jsx("li", {
+                        children: i.jsx("a", {
+                            href: "/downloads/1.2.2.zip",
+                            children: "Version 1.2.2 (二进制文件)"
+                        })
+                    }), i.jsx("li", {
+                        children: i.jsx("a", {
                             href: "/downloads/1.2.1.zip",
                             children: "Version 1.2.1 (二进制文件)"
                         })
-                    }),i.jsx("li", {
+                    }), i.jsx("li", {
                         children: i.jsx("a", {
                             href: "/downloads/1.2.0.zip",
                             children: "Version 1.2.0 (二进制文件)"
@@ -11210,7 +11240,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                     }), i.jsx("li", {
                         children: i.jsx("a", {
                             href: "/downloads/1.1.7.zip",
-                            children: "Version 1.1.7 (二进制文件)（暂不可用）"
+                            children: "Version 1.1.7 (二进制文件)"
                         })
                     }), i.jsx("li", {
                         children: i.jsx("a", {

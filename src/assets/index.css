@@ -314,14 +314,14 @@ body,html {
 
 body {
     background-color: #d23329;
-    font-family: DIN-2014-Light;
+    font-family: SourceHanSansCN-Light, DIN-2014-Light;
     color: #f9df88;
     overflow-x: hidden;
     min-height: 100vh
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: DIN-Condensed-Bold
+    font-family: SourceHanSansCN-Bold, DIN-Condensed-Bold
 }
 
 a {
@@ -934,7 +934,7 @@ img {
 }
 
 .menu-items>li {
-    font-family: DIN-Condensed-Bold
+    font-family: SourceHanSansCN-Bold, DIN-Condensed-Bold
 }
 
 .menu-items a {
@@ -977,6 +977,32 @@ img {
     font-weight: 400;
     font-style: normal;
     font-display: swap
+}
+
+@font-face {
+    font-family: SourceHanSansCN-Bold;
+    src: url(/fonts/shsb.eot);
+    src: url(/fonts/shsb.eot?#iefix) format('embedded-opentype'),
+        url(/fonts/shsb.woff2) format('woff2'),
+        url(/fonts/shsb.woff) format('woff'),
+        url(/fonts/shsb.ttf) format('truetype'),
+        url(/fonts/shsb.svg#SourceHanSansCN-Bold-Alphabetic) format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SourceHanSansCN-Light;
+    src: url(/fonts/shsl.eot);
+    src: url(/fonts/shsl.eot?#iefix) format('embedded-opentype'),
+        url(/fonts/shsl.woff2) format('woff2'),
+        url(/fonts/shsl.woff) format('woff'),
+        url(/fonts/shsl.ttf) format('truetype'),
+        url(/fonts/shsl.svg#SourceHanSansCN-Light-Alphabetic) format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 .hover\:bg-mig-orange:hover {
