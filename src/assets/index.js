@@ -10621,7 +10621,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                     children: ["最近，我们收到了某些新游戏无法运行的报告，例如《密特罗德究极4 穿越未知》。", i.jsx("br", {}), "我们很高兴宣布，此问题已通过今天发布的新固件更新修复，可在下载部分获取。", i.jsx("br", {}), "Mig Flash Dumper 和 Mig Flash Card 均已更新，因此您现在可以转储并游玩这些备份。", i.jsx("br", {}), i.jsx("br", {}), "请注意，目前这仅适用于（黑色）Switch 1 游戏卡类型。", i.jsx("br", {}), "（红色）Switch 2 游戏卡类型目前仍在调查中，我们将在有更多消息时报告。", i.jsx("br", {}), i.jsx("br", {}), "虽然我们最近没有太多沟通，请放心，我们正在努力为我们的产品带来重大更新，并为所有Mig Flash当前和未来的用户准备了很多东西。请继续关注，2026年将是伟大的一年！", i.jsx("br", {}), i.jsx("br", {}), "我们希望祝大家节日快乐。如果圣诞老人对完美的圣诞礼物没有想法，提醒他Mig Flash & Dumper会让任何Switch玩家开心 :)", i.jsx("br", {}), i.jsx("a", {
                         onClick: () => window.scrollTo(0, 0),
                         href: "/#/downloads",
-                        children: "点击此处下载最新固件。"
+                        children: "点击此处下载最新固件"
                     })]
                 }), i.jsxs(W, {
                     title: "2025年9月16日：签署请愿书 :)",
@@ -10634,7 +10634,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                     children: ["- 改进了裁剪ROM中的OOB读取速度", i.jsx("br", {}), "- 改进了稳定性", i.jsx("br", {}), "我们继续致力于赏金计划，到目前为止，我们已经为报告给我们的一个问题奖励了0.2 ETH，我们在本固件更新中修复了它。", i.jsx("br", {}), i.jsx("br", {}), "我们特别感谢这位要求匿名的用户，帮助改进Mig Flash。", i.jsx("br", {}), i.jsx("a", {
                         onClick: () => window.scrollTo(0, 0),
                         href: "/#/downloads",
-                        children: "点击此处下载最新固件。"
+                        children: "点击此处下载最新固件"
                     })]
                 }), i.jsxs(W, {
                     title: "2025年7月1日：更隐蔽的 MigFlash 固件。漏洞赏金计划！",
@@ -10839,11 +10839,11 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                     title: "2024年6月5日：游戏排序",
                     children: ["默认情况下，游戏按照它们被复制到 microSD 的时间排序。这是因为我们相信大多数人希望最喜欢的游戏排在前面。", i.jsx("br", {}), i.jsx("br", {}), "但如果你希望按字母顺序排序游戏，可以前往我们的问答专区，我们在那里进行了详细说明。", i.jsx("br", {}), i.jsx("br", {}), "另外在 V2 版本中，请记住：快速按键可切换到下一个游戏，长按可返回上一个游戏，便于浏览。"]
                 }), i.jsxs(W, {
-                    title: "2024年5月25日：Mig 卡 “V2” 正式发布",
+                    title: "2024年5月25日：Mig 卡带 “V2” 正式发布",
                     children: ["终于，如大家呼声所愿，它来了。", i.jsx("br", {}), "Mig Flash Card “V2” 是我们的首个硬件升级版，现在已开始量产，并将替代原来的 “V1” 版本。从现在起，我们只生产这个新版本，它新增了一个改变游戏体验的开关/按钮。", i.jsx("br", {}), i.jsx("br", {}), "轻按按钮可切换到 microSD 上的下一个游戏，长按则返回上一个游戏。", i.jsx("br", {}), "由于大家的反馈高度一致，我们决定停止 “V1” 的生产，所有新订单或待发订单将收到该新版本。", i.jsx("br", {}), i.jsx("br", {}), "“V1” 的用户无需担心，他们的卡将在功能上与 “V2” 保持一致，并通过未来更新获得相同的功能。唯一的不同仅在于游戏切换方式。", i.jsx("br", {}), i.jsx("br", {}), "对于所有新客户或正在等待 Mig Flash 卡的朋友们，我们希望你们会喜欢这种新的游戏浏览方式！", i.jsx("br", {}), i.jsx("br", {}), "评测样品正在寄送给媒体，下周你们将看到首批独立测评。"]
                 }), i.jsxs(W, {
                     title: "2024年5月21日：固件 1.1.4，提升 microSD 与休眠模式的稳定性",
-                    children: ["今天我们带来了另一个固件更新，将提升 Mig 卡对多种 microSD 品牌的支持，以及休眠模式的稳定性。敬请期待本周六，我们将有一项最受欢迎的功能更新正式发布！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
+                    children: ["今天我们带来了另一个固件更新，将提升 Mig 卡带对多种 microSD 品牌的支持，以及休眠模式的稳定性。敬请期待本周六，我们将有一项最受欢迎的功能更新正式发布！", i.jsx("br", {}), i.jsx("br", {}), i.jsx("a", {
                         onClick: () => window.scrollTo(0, 0),
                         href: "/#/downloads",
                         children: "点击此处下载最新固件"
@@ -11140,7 +11140,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                                 }), i.jsx("li", {
                                     children: '"XXX (Certificate).bin"'
                                 }), i.jsx("li", {
-                                    children: '"XXX (Card ID Set ).bin"'
+                                    children: '"XXX (Card ID Set).bin"'
                                 }), i.jsx("li", {
                                     children: '"XXX (Card UID).bin"'
                                 })]
@@ -11178,7 +11178,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                             }), i.jsx("li", {
                                 children: '"/A.xci/XXX.xci/01" (文件)'
                             }), i.jsx("li", {
-                                children: '"/A.xci/XXX" (Certificate).bin"'
+                                children: '"/A.xci/XXX (Certificate).bin"'
                             })]
                         })]
                     })]
@@ -11372,7 +11372,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                 }), i.jsxs("ol", {
                     className: "self-start pl-5 list-decimal text-mig-orange",
                     children: [i.jsx("li", {
-                        children: "检查您的 Mig Dumper 固件版本：如果您在 Dumper GameCard 驱动器的根目录中没有看到固件版本文件（例如“1.1.7”或类似文件），请跳过以下步骤并按照“使用 MIG UPDATER 更新过期的 MIG DUMPER”操作。"
+                        children: "检查您的 Mig Dumper 固件版本：如果您在转储器的 GameCard 驱动器的根目录中没有看到固件版本文件（例如“1.1.7”或类似文件），请跳过以下步骤并按照“使用 MIG UPDATER 更新过时的 MIG DUMPER”操作。"
                     }), i.jsx("li", {
                         children: "确保 Mig Dumper 中未插入任何游戏卡带。"
                     }), i.jsx("li", {
@@ -11394,7 +11394,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                         className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                     }), i.jsx("h1", {
                         className: "text-lg sm:text-xl md:text-2xl",
-                        children: "使用 MIG UPDATER 更新过期的 MIG DUMPER :"
+                        children: "使用 MIG UPDATER 更新过时的 MIG DUMPER :"
                     })]
                 }), i.jsxs("ol", {
                     className: "self-start pl-5 list-decimal text-mig-orange",
@@ -11427,7 +11427,7 @@ const W = ({ children: e, title: t, image: n }) => i.jsxs(i.Fragment, {
                         className: "w-8 h-3 mt-1 mr-2 bg-mig-white sm:w-10 sm:h-4 md:w-12 md:h-[20px] md:mt-[3px]"
                     }), i.jsx("h1", {
                         className: "text-lg sm:text-xl md:text-2xl",
-                        children: "直接安装或更新过期的转储器的固件 :"
+                        children: "直接安装或更新过时的转储器的固件 :"
                     })]
                 }), i.jsxs("ol", {
                     className: "self-start pl-5 list-decimal text-mig-orange",
